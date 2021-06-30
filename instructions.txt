@@ -1,0 +1,35 @@
+Server intro exercise ;-)
+
+This is a working server using node http module!
+
+It's a simple server that can be launched by typing in terminal:
+> node index.js
+
+When you change something, you must close (Ctrl+c twice) and rerun it.
+
+*The server is up and running ALL the time, until you shut it down, or an error crashes it.
+
+
+Instructions:
+
+1- Complete the /json route by returning the customers to the client
+2- Add another route
+   /saints
+   Which will send back only the saints
+3- Add another route
+   /short-desc
+   Which will send back only the customers names and occupations.
+   Show it in an html table.
+4- Add another route
+   /who?name=abraham
+   (This is called: query parameter)
+   This route will send back only the given customer (name=rachel will send back 'No such customer')
+   (If you change to /who?name=miryam and hit enter, Miryam data should be shown)
+5- Update /saints
+   /saints?isSaint=true
+   Which will return saints or not saints, depending on the query parameter
+
+Debug!
+Debug!
+And once more - Debug!
+This is the way to inspect the request object and see where the relevant data lays.
